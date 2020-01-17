@@ -31,3 +31,16 @@ article img {
 article li {
     margin: 1rem 0;
 }
+
+@media (max-width: 576px) {
+    body {
+        max-width: 85vw;
+        line-height: 1.75;
+    }
+
+    article h1 {
+        font-size: 2rem;
+        margin: 1.25em 0;
+        line-height: 1.5;
+    }
+}
