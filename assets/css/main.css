@@ -34,7 +34,7 @@ article li {
 
 @media (max-width: 576px) {
     body {
-        max-width: 85vw;
+        margin: 2rem 1.5rem;
         line-height: 1.75;
     }
 
