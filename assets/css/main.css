@@ -4,8 +4,6 @@ body {
     font-family: 'Open Sans', sans-serif;
     line-height: 1.5;
     background-color: linen;
-    /* based on the built-in color 'linen' */
-    /* background-image: linear-gradient(180deg, hsl(30, 67%, 94%), hsl(30, 67%, 96%)); */
 }
 
 .post-list-heading {
@@ -63,6 +61,17 @@ article li {
 article footer {
     text-align: center;
     font-size: 14px;
+    margin-top: 2rem;
+}
+
+.poem {
+    text-align: center;
+    font-style: italic;
+    white-space: pre-wrap;
+}
+
+.center-text {
+    text-align: center;
 }
 
 @media (max-width: 576px) {
